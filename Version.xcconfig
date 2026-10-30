@@ -1,0 +1,14 @@
+//
+// Copyright ©2026 Syd Polk. All Rights Reserved.
+// SPDX-License-Identifier: BSD-3-Clause
+//
+// MARKETING_VERSION is what people see, and is bumped on the first commit after
+// a release.
+//
+// CURRENT_PROJECT_VERSION is the build number, and is not kept in lock step
+// with it. App Store Connect requires a unique, increasing build number for every
+// upload within a marketing version, and a release takes more than one upload
+// whenever a build is rejected or replaced. Tying the two together meant burning a
+// marketing version on each retry. Bump this on every upload; it never resets.
+MARKETING_VERSION = 0.1
+CURRENT_PROJECT_VERSION = 1
